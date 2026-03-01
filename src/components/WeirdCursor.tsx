@@ -16,8 +16,10 @@ export default function WeirdCursor() {
   const cursorY = useSpring(mouseY, springConfig)
 
   // Morphing effect
-  const scale = useTransform(mouseX, [0, window.innerWidth], [1, 1.5])
-  const rotate = useTransform(mouseY, [0, window.innerHeight], [0, 360])
+  const windowWidth = typeof window !== 'undefined' ? window.innerWidth : 1000
+  const windowHeight = typeof window !== 'undefined' ? window.innerHeight : 1000
+  const scale = useTransform(mouseX, [0, windowWidth], [1, 1.5])
+  const rotate = useTransform(mouseY, [0, windowHeight], [0, 360])
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
