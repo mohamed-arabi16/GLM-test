@@ -1,5 +1,5 @@
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations } from 'next-intl/server';
+import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { locales } from '@/i18n/request';
 import { Geist, Geist_Mono } from "next/font/google";
@@ -39,6 +39,9 @@ export default async function LocaleLayout({
   if (!locales.includes(locale as any)) {
     notFound();
   }
+
+  // Enable static rendering
+  setRequestLocale(locale);
 
   const messages = await getMessages();
 

@@ -1,7 +1,8 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, use } from 'react'
 import { useTranslations } from 'next-intl'
+import { setRequestLocale } from 'next-intl/server'
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion'
 import { MapPin, Phone, Mail, Building2, Star, ArrowRight, Menu, X } from 'lucide-react'
 import WeirdCursor from '@/components/WeirdCursor'
@@ -18,7 +19,10 @@ interface Property {
   image: string
 }
 
-export default function Home() {
+export default function Home({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = use(params);
+  setRequestLocale(locale);
+
   const t = useTranslations()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [scrollProgress, setScrollProgress] = useState(0)
