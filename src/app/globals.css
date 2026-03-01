@@ -558,7 +558,7 @@
 }
 
 /* RTL skew slide animation */
-[dir="rtl"] @keyframes skew-slide {
+@keyframes skew-slide-rtl {
   0% {
     transform: translateX(100%) skewX(20deg);
     opacity: 0;
@@ -568,9 +568,12 @@
     opacity: 1;
   }
 }
+[dir="rtl"] .animate-skew-slide {
+  animation-name: skew-slide-rtl;
+}
 
 /* RTL text reveal */
-[dir="rtl"] @keyframes text-reveal {
+@keyframes text-reveal-rtl {
   0% {
     clip-path: inset(0 0 0 100%);
   }
@@ -578,15 +581,21 @@
     clip-path: inset(0 0 0 0);
   }
 }
+[dir="rtl"] .animate-text-reveal {
+  animation-name: text-reveal-rtl;
+}
 
 /* RTL glass shine */
-[dir="rtl"] @keyframes glass-shine {
+@keyframes glass-shine-rtl {
   0% {
     transform: translateX(200%) skewX(25deg);
   }
   100% {
     transform: translateX(-100%) skewX(25deg);
   }
+}
+[dir="rtl"] .animate-glass-shine {
+  animation-name: glass-shine-rtl;
 }
 
 /* RTL scrollbar */
