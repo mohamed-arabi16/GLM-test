@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "properties": "Properties",
+    "about": "Our Story",
+    "contact": "Contact",
+    "getInTouch": "Start Your Journey"
+  },
+  "hero": {
+    "badge": "Your Gateway to Luxury Living in İstanbul",
+    "title": "Discover Your Dream Home on the Bosphorus",
+    "subtitle": "From historic waterfront mansions to modern sea-view penthouses, we present an exclusive collection of İstanbul's finest properties that redefine luxury living.",
+    "exploreProperties": "Browse Collection",
+    "watchStory": "Learn More",
+    "propertiesSold": "Properties Sold",
+    "yearsExperience": "Years of Excellence",
+    "clientSatisfaction": "Client Satisfaction"
+  },
+  "properties": {
+    "title": "Featured Collection",
+    "subtitle": "Handpicked luxury properties selected with the utmost care to meet the expectations of the most discerning tastes",
+    "viewAll": "All Properties",
+    "viewDetails": "Full Details",
+    "beds": "Bedroom",
+    "baths": "Bath"
+  },
+  "about": {
+    "title": "Why Choose Yıldız Emlak?",
+    "description": "For over 15 years, we've been navigating İstanbul's real estate market, helping our clients find properties that truly reflect their lifestyle. Our deep market knowledge and extensive network make us your ideal partner in your property journey.",
+    "exclusiveAccess": {
+      "title": "Exclusive Access",
+      "description": "Rare off-market properties available only to our distinguished clientele"
+    },
+    "localExpertise": {
+      "title": "Local Experts",
+      "description": "Our team knows every corner of İstanbul, from historic neighborhoods to modern districts"
+    },
+    "personalizedService": {
+      "title": "VIP Service",
+      "description": "A completely personalized real estate experience tailored to your unique needs and aspirations"
+    },
+    "totalValue": "Total Value",
+    "happyClients": "Happy Clients"
+  },
+  "contact": {
+    "title": "Let Us Help You Find Your Perfect Property",
+    "subtitle": "Our team is ready to answer all your questions and guide you through every step of the process.",
+    "visitUs": "Our Office",
+    "callUs": "Call Us",
+    "emailUs": "Email Us",
+    "yourName": "Your Name",
+    "enterName": "Enter your full name",
+    "emailAddress": "Email Address",
+    "enterEmail": "example@email.com",
+    "phoneNumber": "Phone Number",
+    "enterPhone": "+90 5XX XXX XX XX",
+    "message": "Your Inquiry",
+    "messagePlaceholder": "Tell us about the type of property you're looking for and your expected budget...",
+    "sendMessage": "Send Inquiry"
+  },
+  "footer": {
+    "description": "Since 2009, we've been the trusted partner for many seeking to invest in İstanbul's prime real estate.",
+    "quickLinks": "Quick Links",
+    "services": "Our Services",
+    "contact": "Get in Touch",
+    "buyProperty": "Buy Property",
+    "sellProperty": "Sell Property",
+    "propertyValuation": "Property Valuation",
+    "copyright": "© 2024 Yıldız Emlak. All rights reserved. İstanbul, Turkey."
+  },
+  "property": {
+    "bosphorusVilla": {
+      "title": "Luxury Bosphorus View Villa",
+      "location": "Bebek, İstanbul",
+      "price": "₺85,000,000"
+    },
+    "modernPenthouse": {
+      "title": "Modern Luxury Penthouse",
+      "location": "Nişantaşı, İstanbul",
+      "price": "₺42,000,000"
+    },
+    "historicYali": {
+      "title": "Rare Historic Yalı",
+      "location": "Kandilli, İstanbul",
+      "price": "₺120,000,000"
+    }
+  },
+  "address": "Bağdat Caddesi No. 123, Kadıköy, İstanbul",
+  "phone": "+90 (212) 555 0123",
+  "email": "info@yildizemlak.com"
+}
